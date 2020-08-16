@@ -39,8 +39,8 @@
         <!-- User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here. -->
 
         <img class="navbar-brand" src="https://prueba-diego.s3.us-east-2.amazonaws.com/caricatura-diego.jpeg"
-            alt="drawing" id="header-img">
-            <h3 class="navbar-brand">D.M. Maldini Freyre</h3>
+          alt="drawing" id="header-img">
+        <h3 class="navbar-brand">D.M. Maldini Freyre</h3>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,135 +73,171 @@
       </div>
     </nav>
   </header>
-  
+
   <main class="container">
 
     <header class="jumbotron my-4">
       <h1 class="display-3">Algo para leer?</h1>
-      <p class="lead">En esta página encontrarás los títulos editados de Diego M. Maldini Freyre. <i>...Bienvenid@!</i></p>
+      <p class="lead">En esta página encontrarás los títulos editados de Diego M. Maldini Freyre. <i>...Bienvenid@!</i>
+      </p>
       <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
     </header>
 
-    <div class="text-center">
+    <div id="recuadro-video" class="text-center">
       <!-- User Story #6: I can watch an embedded product video with id="video". -->
       <h1 class="py-5">Video presentación del libro Taichí, Aquí y Ahora</h1>
-      <iframe class="mx-auto" id="video" width="560" height="315" src="https://www.youtube.com/embed/XWYO3HgG00Y" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="mx-auto" id="video" width="560" height="315" src="https://www.youtube.com/embed/XWYO3HgG00Y"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
 
     <div class="container mt-5" id="libros">
-      <div class="row justify-content-around">
-        <div class="card mb-3 col-sm m-2" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 my-auto">
-              <img src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-poemario.png" class="card-img my-auto"
-                alt="Portada del poemario">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Líneas ígneas</h5>
+      <div class="row center">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top m-auto py-3" src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-poemario.png"
+              alt="Portada del poemario">
+            <div class="card-body">
+              <h4 class="card-title">Líneas ígneas</h5>
                 <p class="card-text">Selección de los mejores poemas del autor escritos hasta el 2018, inclusive.
                   Irremediablemente poblados de piel, corazón y pensamiento, como no podía ser de otra manera.</p>
-              </div>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Más Info</a>
             </div>
           </div>
         </div>
-        <div class="card mb-3 col-sm m-2" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 my-auto">
-              <img src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-tratado.jpg" class="card-img my-auto"
-                alt="Portada tratado de taichí">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Taichí, aquí y ahora</h5>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top m-auto py-3" src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-tratado.jpg"
+              alt="Portada tratado de taichí">
+            <div class="card-body">
+              <h4 class="card-title">Taichí, aquí y ahora</h5>
                 <p class="card-text">Tratado muy cercano y completo, escrito desde la mirada del practicante, que
                   ayudará al lector a llevar una vida relajada y atenta a lo que es más importante, sea o no,
                   practicante de taichí.</p>
-              </div>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Más Info</a>
             </div>
           </div>
         </div>
-        <div class="card mb-3 col-sm m-2" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 my-auto">
-              <img src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-novela.jpg" class="card-img my-auto"
-                alt="Portada novela de zombies">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Los Nuevos</h5>
+
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top m-auto py-3" src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-novela.jpg"
+              alt="Portada novela de zombies">
+            <div class="card-body">
+              <h4 class="card-title">Los Nuevos</h5>
                 <p class="card-text">Suspenso y mucha acción con la cultura zombie como excusa para reflexionar
                   sobre nuestra propia consciencia, pero ninguno de los tan cansadores y previsibles clichés del género.
                 </p>
-              </div>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Más Info</a>
             </div>
           </div>
         </div>
-        <div class="card mb-3 col-sm m-2" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 my-auto">
-              <img src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-ensayo.jpg" class="card-img my-auto"
-                alt="Portada ensayo sobre el rol del autor">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">El rol del Autor</h5>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top m-auto py-3" src="https://prueba-diego.s3.us-east-2.amazonaws.com/tapa-ensayo.jpg"
+              alt="Portada ensayo sobre el rol del autor">
+            <div class="card-body">
+              <h4 class="card-title">El rol del Autor</h5>
                 <p class="card-text">Ensayo que contiene una argumentación convincente de que todos nosotros
                   contribuimos de manera notable -aunque subrepticia- a la transformación social en toda su amplitud.
                 </p>
-              </div>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Más Info</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </maintory #7: My landing page has a form element with a corresponding id="form" . -->
+    </div>
+  </main>
+
+  <!-- tory #7: My landing page has a form element with a corresponding id="form" . -->
 
 
-    <form action="https://www.freecodecamp.com/email-submit" class="text-center bg-primary" id="form">
-      <label for="correo" class="text-light">Ingresa tu correo para mantenerte en contacto con el autor:</label>
+  <form action="https://ensayosypoemas.wordpress.com" class="text-center bg-primary my-5 py-3" id="form">
+    <label for="correo" class="text-light">Ingresa tu correo para mantenerte en contacto con el autor:</label>
 
-      <!-- User Story #8: Within the form, there is an input field with id="email" where I can enter an email address. -->
+    <!-- User Story #8: Within the form, there is an input field with id="email" where I can enter an email address. -->
 
-      <!-- User Story #9: The #email input field should have placeholder text to let the user know what the field is for. -->
+    <!-- User Story #9: The #email input field should have placeholder text to let the user know what the field is for. -->
 
-      <!-- User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address. -->
+    <!-- User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address. -->
 
-      <div class="container bg-color-dark p-2">
-        <input type="email" name="email" id="email" placeholder="@">
-      </div>
+    <div class="container bg-color-dark p-2">
+      <input type="email" name="email" id="email" placeholder="@">
+    </div>
 
-      <!-- User Story #11: Within the form, there is a submit input with a corresponding id="submit". -->
+    <!-- User Story #11: Within the form, there is a submit input with a corresponding id="submit". -->
 
-      <input type="submit" id="submit" value="Enviar" href="https://www.freecodecamp.com/email-submit">
-    </form>
-    <div id="blog"><a href="https://ensayosypoemas.wordpress.com" target="_blank">Ingresa a este enlace para ir al Blog
-        de
-        Diego MMF</a></div>
-    <div id="info-autor">Diego M. Maldini Freyre nació en Santafé, Argentina, el 22 de abril de 1980. Es instructor de
-      taiji-qigong, escritor y emprendedor autodidacta por naturaleza. Estar siempre a disposición de su curiosidad y
-      avidez por lo desconocido, lo ha llevado a recorrer durante varios años, pero de forma inconclusa, varios estudios
-      universitarios, entre los que se destacan Ing. en Sistemas y Lic. en Letras, así como a protagonizar numerosos
+    <input type="submit" id="submit" value="Enviar" href="https://www.freecodecamp.com/email-submit">
+  </form>
+
+  <div id="blog" class="text-right">
+    <a href="https://ensayosypoemas.wordpress.com" target="_blank">Ingresa a este enlace para ir al Blog de Diego
+      MMF</a>
+  </div>
+
+  <div id="info-autor" class="bg-dark text-light text-justify p-4 my-5">
+    <div class="h3">
+      Bio...
+    </div>
+    <br>
+    <div class="lead">
+      Diego M. Maldini Freyre nació en Santafé, Argentina, el 22 de abril de 1980. Escritor desde siempre; Actualmente
+      se desempeña como desarrollador independiente de software. También es instructor de taiji-qigong y apasionado
+      emprendedor, autodidacta por naturaleza.
+    </div>
+    <br>
+    <div>
+      Estar siempre a disposición de su curiosidad y avidez por lo desconocido, lo ha llevado a recorrer durante varios
+      años, pero de forma inconclusa, varios estudios universitarios, entre los que se destacan Ing. en Sistemas y Lic.
+      en
+      Letras, así como a protagonizar numerosos
       emprendimientos de la más variada naturaleza y resultado, tales como una cervecería artesanal, una escuela de
       taiji-qigong, una librería, una revista cultural y alguno que otro programa de radio.
+    </div>
+    <br>
+    <div>
       Actualmente, vive en la provincia de Córdoba y es padre de un bello hijo que recién está recorriendo sus primeros
       pasos en esta vida.
+    </div>
+    <br>
+    <div>
       El autor ha escrito cuatro títulos diferentes y posee otro más en proyecto, sobre emprendedorismo, todos bajo el
-      mismo sello editorial.</div>
+      mismo sello editorial.
+    </div>
+  </div>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-      </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-      </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-      </script>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; DiegoMMF 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
