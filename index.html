@@ -43,7 +43,7 @@
           </li>
         </ul>
       </nav>
-  
+
       <main class="container">
         <header id="header">
           <!-- User Story #1 -->
@@ -55,7 +55,7 @@
           /><!-- User Story #2 -->
           <p class="header-text"><i>Vamos a leer...</i></p>
         </header>
-  
+
         <div id="video-frame">
           <!-- User Story #6 -->
           <h2 class="theme-font">Video presentación del libro</h2>
@@ -70,7 +70,7 @@
             allowfullscreen
           ></iframe>
         </div>
-  
+
         <div id="libros">
           <h2 class="theme-font">Los libros del Autor</h2>
           <div class="book-card">
@@ -79,15 +79,14 @@
               src="https://bit.ly/35MqaOA"
               alt="Portada tratado de taichí"
             />
-            <div>
-              <h4 class="theme-font">Taichí, aquí y ahora</h4>
+            <div class="book-info">
+              <h3 class="theme-font">Taichí, aquí y ahora</h3>
               <p>
                 Tratado muy cercano y completo, escrito desde la mirada del
                 practicante, que ayudará al lector a llevar una vida relajada y
                 atenta a lo que es más importante, sea o no, practicante de
                 taichí.
               </p>
-              <a>Más Info</a>
             </div>
           </div>
           <div class="book-card">
@@ -96,14 +95,13 @@
               src="https://bit.ly/35Lurlg"
               alt="Portada del poemario"
             />
-            <div>
-              <h4 class="theme-font">Líneas ígneas</h4>
+            <div class="book-info">
+              <h3 class="theme-font">Líneas ígneas</h3>
               <p>
-                Selección de los mejores poemas del autor escritos hasta el 2018,
-                inclusive. Irremediablemente poblados de piel, corazón y
+                Selección de los mejores poemas del autor escritos hasta el
+                2018, inclusive. Irremediablemente poblados de piel, corazón y
                 pensamiento, como no podía ser de otra manera.
               </p>
-              <a>Más Info</a>
             </div>
           </div>
           <div class="book-card">
@@ -112,14 +110,13 @@
               src="https://bit.ly/3mt1zVV"
               alt="Portada novela de zombies"
             />
-            <div>
-              <h4 class="theme-font">Los Nuevos</h4>
+            <div class="book-info">
+              <h3 class="theme-font">Los Nuevos</h3>
               <p>
                 Suspenso y mucha acción con la cultura zombie como excusa para
-                reflexionar sobre nuestra propia consciencia, pero ninguno de los
-                tan cansadores y previsibles clichés del género.
+                reflexionar sobre nuestra propia consciencia, pero ninguno de
+                los tan cansadores y previsibles clichés del género.
               </p>
-              <a>Más Info</a>
             </div>
           </div>
           <div class="book-card">
@@ -128,77 +125,83 @@
               src="https://bit.ly/3oAoe4i"
               alt="Portada ensayo sobre el rol del autor"
             />
-            <div>
-              <h4 class="theme-font">El rol del Autor</h4>
+            <div class="book-info">
+              <h3 class="theme-font">El rol del Autor</h3>
               <p>
                 Ensayo que contiene una argumentación convincente de que todos
-                nosotros contribuimos de manera notable -aunque subrepticia- a la
-                transformación social en toda su amplitud.
+                nosotros contribuimos de manera notable -aunque subrepticia- a
+                la transformación social en toda su amplitud.
               </p>
-              <a>Más Info</a>
             </div>
           </div>
         </div>
       </main>
-  
-      <form action="https://ensayosypoemas.wordpress.com" id="form">
+
+      <form
+        class="gray-background"
+        action="https://ensayosypoemas.wordpress.com"
+        id="form"
+      >
         <!-- User Story #7 -->
-        <label for="correo" class="text-light"
-          >Ingresa tu correo para mantenerte en contacto con el autor:</label
-        >
+        <label for="email">
+          <p class="theme-font">
+            Ingresa tu correo para ponerte en contacto con Diego:
+          </p>
+        </label>
         <div>
           <!-- User Story #8, #9, #10 -->
           <input type="email" name="email" id="email" placeholder="@" />
-        </div>
-        <input
+          <input
           type="submit"
           id="submit"
           value="Enviar"
+          class="button"
           href="https://www.freecodecamp.com/email-submit"
         />
+        </div>
         <!-- User Story #11 -->
       </form>
-  
-      <div id="blog" class="text-right">
-        <a href="https://ensayosypoemas.wordpress.com" target="_blank"
-          >Ingresa a este enlace para ir al Blog de DiegoMMF</a
-        >
-      </div>
-  
-      <div id="info-autor">
-        <div class="theme-font">Bio...</div>
-        <br />
-        <div>
+
+      <div id="info-author">
+        <h2 class="theme-font header-text">Bio...</h2>
+        <p>
           Diego M. Maldini Freyre nació en Santafé, Argentina, el 22 de abril de
           1980. Escritor desde siempre; Actualmente se desempeña como
           desarrollador independiente de software. También es instructor de
           taiji-qigong y apasionado emprendedor, autodidacta por naturaleza.
-        </div>
-        <br />
-        <div>
+        </p>
+        <p>
           Estar siempre a disposición de su curiosidad y avidez por lo
-          desconocido, lo ha llevado a recorrer durante varios años, pero de forma
-          inconclusa, varios estudios universitarios, entre los que se destacan
-          Ing. en Sistemas y Lic. en Letras, así como a protagonizar numerosos
-          emprendimientos de la más variada naturaleza y resultado, tales como una
-          cervecería artesanal, una escuela de taiji-qigong, una librería, una
-          revista cultural y alguno que otro programa de radio.
-        </div>
-        <br />
-        <div>
-          Actualmente, vive en la provincia de Córdoba y es padre de un bello hijo
-          que recién está recorriendo sus primeros pasos en esta vida.
-        </div>
-        <br />
-        <div>
+          desconocido, lo ha llevado a recorrer durante varios años, pero de
+          forma inconclusa, varios estudios universitarios, entre los que se
+          destacan Ing. en Sistemas y Lic. en Letras, así como a protagonizar
+          numerosos emprendimientos de la más variada naturaleza y resultado,
+          tales como una cervecería artesanal, una escuela de taiji-qigong, una
+          librería, una revista cultural y alguno que otro programa de radio.
+        </p>
+        <p>
+          Actualmente, vive en la provincia de Córdoba y es padre de un bello
+          hijo que recién está recorriendo sus primeros pasos en esta vida.
+        </p>
+        <p>
           El autor ha escrito cuatro títulos diferentes y posee otro más en
           proyecto, sobre emprendedorismo, todos bajo el mismo sello editorial.
-        </div>
+        </p>
+      </div>
+    </div>
+    
+    <div id="blog">
+      <img src="./img/wp-icon.png" alt="">
+      <div>
+        <p>Escritos disponibles online:</p>
+        <a href="https://ensayosypoemas.wordpress.com" target="_blank"
+          >Blog Ensayos & Poemas</a
+        >
       </div>
     </div>
 
-    <footer>
-      <p>Copyright &copy; Diego M. Maldini Freyre 2020</p>
+    <footer class="gray-background">
+      <p class="theme-font">Copyright &copy; Diego M. Maldini Freyre 2020</p>
     </footer>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
