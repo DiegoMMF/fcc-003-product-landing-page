@@ -132,6 +132,18 @@ p {
   border-radius: 5px;
 }
 
+footer {
+  background-color: #1A1A1A;
+  justify-content: center;
+  color: #FFF;
+  padding: 4vh 0 4vh 0;
+  text-align: center;
+}
+
+#brand-footer {
+  max-width: 30vw;
+}
+
 @media (min-width: 453px) {
   #nav-bar {
     display: flex;
