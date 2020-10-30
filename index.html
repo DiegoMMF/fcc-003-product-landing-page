@@ -1,230 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta property="og:image" content="https://bit.ly/31TVNVg" />
+    <meta
+      property="og:description"
+      content="freeCode Camp curriculum excercise by DiegoMMF"
+    />
+    <meta property="og:title" content="Product Landing Page" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Product Landing Page</title>
+  </head>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:image" content="https://rethink.software/api/v2/connectedApps.requestObject/27824dfb-4bab-47ec-aa31-5d852df8f7f7?connectedAppsId=76650&key=uploads%2Fdiego-m.-maldini-freyre%2Fdrive-personal-EnDpPV5%2Fdibujo.jpeg-3ZhwrlX%2Fdibujo.jpeg&itemsOriginalId=1dbdddba-83e7-4b1a-871a-1891d2e2b25d">
-  <meta property="og:description" content="freeCode Camp curriculum excercise by DiegoMMF">
-  <meta property="og:title" content="Product Landing Page">
-  <title>Product Landing Page</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Dosis|Liu+Jian+Mao+Cao|Montserrat|Open+Sans+Condensed:300|Raleway&display=swap"
-    rel="stylesheet">
-  <title>Product Landing Page</title>
-</head>
-
-<body>
-
-  <!-- User Story #1: My product landing page should have a header element with a corresponding id="header". -->
-  <header id="header">
-
-    <!-- User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar". -->
-    <nav id="nav-bar" class="">
-
-      <div>
-        <!-- User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here. -->
-        <img src="https://bit.ly/3jDF2DK" alt="drawing" id="header-img">
-        <h3>D.M. Maldini Freyre</h3>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-
-          <ul class="navbar-nav ml-auto">
-
-            <!-- User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
-          User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page. -->
-            <li class="nav-item">
-              <a class="nav-link active" href="#form">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#info-autor">Sobre Diego</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#libros">Libros</a>
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-    </nav>
-  </header>
-
-  <main class="container">
-
-    <header class="jumbotron my-4">
-      <h1 class="display-3">Ganas de leer?</h1>
-      <p class="lead">En esta página encontrarás los títulos editados de Diego M. Maldini Freyre. <i>...Bienvenid@!</i>
-      </p>
-    </header>
-
-    <div id="recuadro-video" class="text-center">
-      <!-- User Story #6: I can watch an embedded product video with id="video". -->
-      <h1 class="py-5">Video presentación del libro Taichí, Aquí y Ahora</h1>
-      <iframe class="mx-auto" id="video" width="560" height="315" src="https://www.youtube.com/embed/XWYO3HgG00Y"
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-
-    <div class="container mt-5" id="libros">
-      <div class="row center">
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card h-100 text-center">
-            <img class="card-img-top m-auto py-3" src="https://bit.ly/35Lurlg"
-              alt="Portada del poemario">
-            <div class="card-body">
-              <h4 class="card-title">Líneas ígneas</h5>
-                <p class="card-text">Selección de los mejores poemas del autor escritos hasta el 2018, inclusive.
-                  Irremediablemente poblados de piel, corazón y pensamiento, como no podía ser de otra manera.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Más Info</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card h-100 text-center">
-            <img class="card-img-top m-auto py-3" src="https://bit.ly/35MqaOA"
-              alt="Portada tratado de taichí">
-            <div class="card-body">
-              <h4 class="card-title">Taichí, aquí y ahora</h5>
-                <p class="card-text">Tratado muy cercano y completo, escrito desde la mirada del practicante, que
-                  ayudará al lector a llevar una vida relajada y atenta a lo que es más importante, sea o no,
-                  practicante de taichí.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Más Info</a>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card h-100 text-center">
-            <img class="card-img-top m-auto py-3" src="https://bit.ly/3mt1zVV"
-              alt="Portada novela de zombies">
-            <div class="card-body">
-              <h4 class="card-title">Los Nuevos</h5>
-                <p class="card-text">Suspenso y mucha acción con la cultura zombie como excusa para reflexionar
-                  sobre nuestra propia consciencia, pero ninguno de los tan cansadores y previsibles clichés del género.
-                </p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Más Info</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card h-100 text-center">
-            <img class="card-img-top m-auto py-3" src="https://bit.ly/3oAoe4i"
-              alt="Portada ensayo sobre el rol del autor">
-            <div class="card-body">
-              <h4 class="card-title">El rol del Autor</h5>
-                <p class="card-text">Ensayo que contiene una argumentación convincente de que todos nosotros
-                  contribuimos de manera notable -aunque subrepticia- a la transformación social en toda su amplitud.
-                </p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Más Info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </main>
-
-  <!-- tory #7: My landing page has a form element with a corresponding id="form" . -->
-
-
-  <form action="https://ensayosypoemas.wordpress.com" class="text-center bg-primary my-5 py-3" id="form">
-    <label for="correo" class="text-light">Ingresa tu correo para mantenerte en contacto con el autor:</label>
-
-    <!-- User Story #8: Within the form, there is an input field with id="email" where I can enter an email address. -->
-
-    <!-- User Story #9: The #email input field should have placeholder text to let the user know what the field is for. -->
-
-    <!-- User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address. -->
-
-    <div class="container bg-color-dark p-2">
-      <input type="email" name="email" id="email" placeholder="@">
-    </div>
-
-    <!-- User Story #11: Within the form, there is a submit input with a corresponding id="submit". -->
-
-    <input type="submit" id="submit" value="Enviar" href="https://www.freecodecamp.com/email-submit">
-  </form>
-
-  <div id="blog" class="text-right">
-    <a href="https://ensayosypoemas.wordpress.com" target="_blank">Ingresa a este enlace para ir al Blog de Diego
-      MMF</a>
-  </div>
-
-  <div id="info-autor" class="bg-dark text-light text-justify p-4 my-5">
-    <div class="h3">
-      Bio...
-    </div>
-    <br>
-    <div class="lead">
-      Diego M. Maldini Freyre nació en Santafé, Argentina, el 22 de abril de 1980. Escritor desde siempre; Actualmente
-      se desempeña como desarrollador independiente de software. También es instructor de taiji-qigong y apasionado
-      emprendedor, autodidacta por naturaleza.
-    </div>
-    <br>
-    <div>
-      Estar siempre a disposición de su curiosidad y avidez por lo desconocido, lo ha llevado a recorrer durante varios
-      años, pero de forma inconclusa, varios estudios universitarios, entre los que se destacan Ing. en Sistemas y Lic.
-      en
-      Letras, así como a protagonizar numerosos
-      emprendimientos de la más variada naturaleza y resultado, tales como una cervecería artesanal, una escuela de
-      taiji-qigong, una librería, una revista cultural y alguno que otro programa de radio.
-    </div>
-    <br>
-    <div>
-      Actualmente, vive en la provincia de Córdoba y es padre de un bello hijo que recién está recorriendo sus primeros
-      pasos en esta vida.
-    </div>
-    <br>
-    <div>
-      El autor ha escrito cuatro títulos diferentes y posee otro más en proyecto, sobre emprendedorismo, todos bajo el
-      mismo sello editorial.
-    </div>
-  </div>
-
-  <footer class="py-5 bg-dark">
+  <body>
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; DiegoMMF 2020</p>
+      <nav id="nav-bar">
+        <!-- <h3 class="theme-font brand"><span class="thin">Diego</span><span class="bold">Maldini</span><span class="thin">Freyre</span></h3> -->
+        <img class="brand" src="https://bit.ly/2Jlctie" alt="" />
+        <!-- User Story #3 -->
+        <ul>
+          <!-- User Story #4 -->
+          <li class="menu-item">
+            <a class="nav-link theme-font" href="#info-autor">Bio</a>
+          </li>
+          <li class="menu-item">
+            <a class="nav-link theme-font" href="#blog">Blog</a>
+          </li>
+          <li class="menu-item">
+            <a class="nav-link theme-font" href="#libros">Libros</a>
+          </li>
+          <li class="menu-item">
+            <a class="nav-link theme-font" href="#form">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <main class="container">
+        <header id="header">
+          <!-- User Story #1 -->
+          <h1 class="header-text theme-font">Hola!</h1>
+          <img
+            id="header-img"
+            src="https://www.i-argent.com/images/livres9.gif"
+            alt=""
+          /><!-- User Story #2 -->
+          <p class="header-text"><i>Vamos a leer...</i></p>
+        </header>
+  
+        <div id="video-frame">
+          <!-- User Story #6 -->
+          <h2 class="theme-font">Video presentación del libro</h2>
+          <h2 class="theme-font">Taichí, Aquí y Ahora</h2>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/XWYO3HgG00Y"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+  
+        <div id="libros">
+          <h2 class="theme-font">Los libros del Autor</h2>
+          <div class="book-card">
+            <img
+              class="cover"
+              src="https://bit.ly/35MqaOA"
+              alt="Portada tratado de taichí"
+            />
+            <div>
+              <h4 class="theme-font">Taichí, aquí y ahora</h4>
+              <p>
+                Tratado muy cercano y completo, escrito desde la mirada del
+                practicante, que ayudará al lector a llevar una vida relajada y
+                atenta a lo que es más importante, sea o no, practicante de
+                taichí.
+              </p>
+              <a>Más Info</a>
+            </div>
+          </div>
+          <div class="book-card">
+            <img
+              class="cover"
+              src="https://bit.ly/35Lurlg"
+              alt="Portada del poemario"
+            />
+            <div>
+              <h4 class="theme-font">Líneas ígneas</h4>
+              <p>
+                Selección de los mejores poemas del autor escritos hasta el 2018,
+                inclusive. Irremediablemente poblados de piel, corazón y
+                pensamiento, como no podía ser de otra manera.
+              </p>
+              <a>Más Info</a>
+            </div>
+          </div>
+          <div class="book-card">
+            <img
+              class="cover"
+              src="https://bit.ly/3mt1zVV"
+              alt="Portada novela de zombies"
+            />
+            <div>
+              <h4 class="theme-font">Los Nuevos</h4>
+              <p>
+                Suspenso y mucha acción con la cultura zombie como excusa para
+                reflexionar sobre nuestra propia consciencia, pero ninguno de los
+                tan cansadores y previsibles clichés del género.
+              </p>
+              <a>Más Info</a>
+            </div>
+          </div>
+          <div class="book-card">
+            <img
+              class="cover"
+              src="https://bit.ly/3oAoe4i"
+              alt="Portada ensayo sobre el rol del autor"
+            />
+            <div>
+              <h4 class="theme-font">El rol del Autor</h4>
+              <p>
+                Ensayo que contiene una argumentación convincente de que todos
+                nosotros contribuimos de manera notable -aunque subrepticia- a la
+                transformación social en toda su amplitud.
+              </p>
+              <a>Más Info</a>
+            </div>
+          </div>
+        </div>
+      </main>
+  
+      <form action="https://ensayosypoemas.wordpress.com" id="form">
+        <!-- User Story #7 -->
+        <label for="correo" class="text-light"
+          >Ingresa tu correo para mantenerte en contacto con el autor:</label
+        >
+        <div>
+          <!-- User Story #8, #9, #10 -->
+          <input type="email" name="email" id="email" placeholder="@" />
+        </div>
+        <input
+          type="submit"
+          id="submit"
+          value="Enviar"
+          href="https://www.freecodecamp.com/email-submit"
+        />
+        <!-- User Story #11 -->
+      </form>
+  
+      <div id="blog" class="text-right">
+        <a href="https://ensayosypoemas.wordpress.com" target="_blank"
+          >Ingresa a este enlace para ir al Blog de DiegoMMF</a
+        >
+      </div>
+  
+      <div id="info-autor">
+        <div class="theme-font">Bio...</div>
+        <br />
+        <div>
+          Diego M. Maldini Freyre nació en Santafé, Argentina, el 22 de abril de
+          1980. Escritor desde siempre; Actualmente se desempeña como
+          desarrollador independiente de software. También es instructor de
+          taiji-qigong y apasionado emprendedor, autodidacta por naturaleza.
+        </div>
+        <br />
+        <div>
+          Estar siempre a disposición de su curiosidad y avidez por lo
+          desconocido, lo ha llevado a recorrer durante varios años, pero de forma
+          inconclusa, varios estudios universitarios, entre los que se destacan
+          Ing. en Sistemas y Lic. en Letras, así como a protagonizar numerosos
+          emprendimientos de la más variada naturaleza y resultado, tales como una
+          cervecería artesanal, una escuela de taiji-qigong, una librería, una
+          revista cultural y alguno que otro programa de radio.
+        </div>
+        <br />
+        <div>
+          Actualmente, vive en la provincia de Córdoba y es padre de un bello hijo
+          que recién está recorriendo sus primeros pasos en esta vida.
+        </div>
+        <br />
+        <div>
+          El autor ha escrito cuatro títulos diferentes y posee otro más en
+          proyecto, sobre emprendedorismo, todos bajo el mismo sello editorial.
+        </div>
+      </div>
     </div>
-    <!-- /.container -->
-  </footer>
 
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-</body>
+    <footer>
+      <p>Copyright &copy; Diego M. Maldini Freyre 2020</p>
+    </footer>
 
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>

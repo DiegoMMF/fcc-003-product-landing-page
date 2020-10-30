@@ -1,24 +1,102 @@
-@media (max-width: 500px) {
-  ul {
-    display: flex;
-    align-self: center;
-  }
+*|* {
+/*   border: 1px solid; */
+  padding: 0%;
+  margin: 0%;
+  max-width: 100vw;
 }
-/* #nav-bar {
 
-} */
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2vw 0 2vw;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand {
+  max-width: 60vw;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.theme-font {
+  font-family: "Gayathri", sans-serif;
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 10vw 25vh 10vw;
+  text-align: center;
+}
+
+.header-text {
+  padding: 10vw;
+}
 
 #header-img {
-  width: 50px;
-  border-radius: 50%;
+  max-width: 10vw;
+  padding: 10vw;
+  align-self: center;
 }
 
-
-
-#recuadro-video {
-  padding-bottom: 3em;
+#video-frame {
+  padding: 1em 1em 5em 1em;
 }
 
-.card-img-top {
-  max-height: 100px;
+#video {
+  max-width: 100%;
+  padding-top: 3vh;
+}
+
+.book-card {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 2em 1em 2em 1em;
+  display: flex;
+}
+
+.cover {
+  max-width: 25vw;
+  margin: 1em;
+  box-shadow: 0 5px 10px;
+}
+
+footer {
+  background-color: #444;
+  color: #EEE;
+  padding: 5vh 0 5vh 0;
+  text-align: center;
+}
+
+@media (min-width: 453px) {
+  #nav-bar {
+    display: flex;
+    flex-direction: row;
+  }
+  .brand {
+    max-width: 400px;
+  }
 }
