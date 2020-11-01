@@ -1,6 +1,6 @@
 # freeCode Camp curriculum
 ## Responsive Web Design Certification
-### Porject 3/5: fcc-003-product-landing-page
+### Project 3/5: fcc-003-product-landing-page
 Web hosted in: https://fcc-003-product-landing-page.vercel.app/
 
 #### Author DiegoMMF
