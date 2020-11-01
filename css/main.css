@@ -1,3 +1,0 @@
-@import "./mobile.css" (max-width: 450px);
-@import "./tablet.css" (min-width: 451px) and (max-width: 1200px);
-@import "./desktop.css" (min-width: 1201px);
