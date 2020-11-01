@@ -1,3 +1,4 @@
+
 *|* {
   /* border: 1px solid; */
   padding: 0%;
@@ -146,14 +147,4 @@ footer {
 label {
   padding-bottom: 1em;
   margin-bottom: 1em;
-}
-
-@media (min-width: 453px) {
-  #nav-bar {
-    display: flex;
-    flex-direction: row;
-  }
-  .brand {
-    max-width: 400px;
-  }
 }
